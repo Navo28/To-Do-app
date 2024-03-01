@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: const HomePage(),
       theme: ThemeData(primarySwatch: Colors.yellow),
     );
   }
